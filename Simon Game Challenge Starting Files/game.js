@@ -1,13 +1,13 @@
-var buttoncolours=["red","blue","green","yellow"];
+let buttoncolours=["red","blue","green","yellow"];
  
-var gamepattern=[];
+let gamepattern=[];
 
-var userclickedpattern=[];
+let userclickedpattern=[];
 
 
-var started=false;
+let started=false;
 
-var level=0;
+let level=0;
 
 $(document).keypress(function(){
     if(!started){
